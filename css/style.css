@@ -1,0 +1,226 @@
+header{
+	background-image: linear-gradient(#04519b, #044687 60%, #033769);
+	color:#fff;
+	min-height:70px;
+	padding-top:25px;
+}
+
+header form{
+	float:right;
+}
+
+header .logo{
+	float:left;
+}
+
+.panel-heading{
+	background-image: linear-gradient(#04519b, #044687 60%, #033769);
+	color:#fff !important;
+}
+
+.bubble{
+	position:relative;
+	width:580px;
+	min-height:65px;
+	padding:15px;
+	background:#fff;
+	border-radius: 10px;
+	border:1px solid #ccc;
+}
+
+.bubble:after{
+	content:'';
+	position:absolute;
+	border-style:solid;
+	border-width:15px 15px 15px 0;
+	border-color:transparent #fff;
+	display:block;
+	width:0;
+	z-index:1;
+	margin-top:-15px;
+	left:-15px;
+	top:50%;
+}
+
+.bubble:before{
+	content:'';
+	position:absolute;
+	border-style:solid;
+	border-width:15px 15px 15px 0;
+	border-color:transparent #ccc;
+	display:block;
+	width:0;
+	z-index:0;
+	margin-top:-15px;
+	left:-16px;
+	top:50%;
+}
+
+.post-actions{
+	margin:5px;
+}
+
+.comment-form .form-group{
+	width:90%;
+}
+
+
+.logout .form-group{
+	width:90%;
+}
+
+a.logout{
+	float: right;
+}
+
+#head{
+	width:50px;
+}
+
+.comment-form input[type='text']{
+	width:100%;
+}
+
+.comment-avatar img{
+	width:40px;
+	margin-right:5px;
+}
+
+.comment{
+	border:1px solid #ccc;
+	border-radius: 5px;
+	padding:3px;
+	margin:5px 0;
+	overflow:auto;
+	width:100%;
+}
+
+.friends li{
+	list-style: none;
+	padding:0 5px;
+	display:inline;
+	float:left;
+}
+
+.friends img{
+	width:55px;
+}
+
+.groups img{
+	width:80px;
+	float:left;
+	margin-right:15px;
+}
+
+.group-item{
+	padding-bottom:10px;
+	margin-bottom:20px;
+	border-bottom:1px solid #ccc;
+	overflow:auto;
+}
+
+.members .member-row{
+	border-bottom:1px solid #ccc;
+	padding-bottom:20px;
+	margin-bottom:20px;
+}
+
+.members img{
+	margin-bottom:5px;
+}
+
+.profile ul{
+	margin-top:30px;
+}
+
+.profile li{
+	list-style: none;
+	line-height: 1.9em;
+}
+
+.photos{
+	margin:0;
+	padding:0;
+}
+
+.photos li{
+	list-style: none;
+	float:left;
+	margin:5px;
+	width:23%;
+}
+
+.photos img{
+	width:100%;
+}
+
+footer{
+	background:#f4f4f4;
+	height:90px;
+	color:#04519b;
+	font-weight: bold;
+	text-align: center;
+	padding-top:40px;
+	margin-top:30px;
+	border-top:7px solid #04519b;
+}
+
+
+@media(min-width: 991px){
+	.members p{
+		padding-top:40px;
+	}
+
+	*{ padding: 0; margin: 0; border: 0; }
+
+	body{
+		background: silver;
+	}
+
+	#container{ width: 40%; background: white; margin: 0 auto; padding: 20px; }
+
+	#chat_box{
+		width: 90%;
+		height: 400px;
+	}
+
+	#chat_data{ width: 100%; padding: 5px; margin-bottom: 5px; border-bottom: 1px solid silver; font-weight: bold; }
+
+	input[type="text"]{ width: 100%; height: 40px; border: 1px solid grey; border-radius: 5px; }
+
+	input[type="submit"]{ width: 100%; height: 40px; border: 1px solid grey; border-radius: 5px; }
+
+	textarea{ width: 100%; height: 40px; border: 1px solid grey; border-radius: 5px; }
+
+
+}
+
+#chat_widget_container{padding:20px 20px 5px 20px; background-color:#F2F2F2; border:5px solid #AFAFAF;
+	border-bottom:0px; width:333px; font-size:11px; font-family:"Lucida Grande",Arial,Helvetica,sans-serif;
+	position:fixed; bottom:0px; right:20px}
+
+#chat_widget_login{width:333px; text-align:center; height:166px; margin-top:80px}
+
+#chat_widget_main_container{display:none}
+
+#chat_widget_messages_container{float:left; width:200px; border:1px solid #DDD; height:200px; overflow:auto;
+	padding:5px; background-color:#FFF; position:relative}
+
+#chat_widget_messages{overflow-x:hidden; overflow-y:auto; position:absolute; bottom:0px}
+
+#chat_widget_online{width:100px; height:210px; float:left; padding:0px 10px; border:1px solid #DDD;
+	border-left:0px; background-color:#FFF; overflow: auto;}
+
+#chat_widget_online_list{list-style:none; padding:0px}
+
+#chat_widget_online_list >li{margin-left:0px}
+
+#chat_widget_input_container{margin-top:10px; text-align:left}
+
+#chat_widget_input{width:260px; margin-right:10px; border:1px solid #DDD; padding:2px 5px}
+
+#chat_widget_loader{display:none}
+
+#chat_widget_login_loader{display:none}
+
+.clear{clear:both}

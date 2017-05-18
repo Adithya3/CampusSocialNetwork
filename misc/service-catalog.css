@@ -1,0 +1,364 @@
+/*
+|--------------------------------------------------------------------------
+|	Common things 
+|--------------------------------------------------------------------------
+*/
+.page-footer-inner {
+	padding: 0;
+	width:80%;
+}
+.page-footer-version {
+	float: right;
+	text-align: right;
+	color: #fff;
+	width: 20%;
+}
+.scroll-to-top {
+	bottom: 35px;
+}
+.footer-text {
+	float:left;
+	margin-left:10px;
+}
+.sign-in-inline {
+	vertical-align: middle;
+	margin: 16px 20px 0 0;
+	display: block;
+	font-size: 14px;
+	font-weight: 600;
+	color: #F8981D;
+}
+.sign-in-inline:hover,
+.sign-in-inline:active {
+	text-decoration: none;
+	color: #F8981D;
+}
+.login-icon {
+	color: #0073AE;
+}
+/*
+|--------------------------------------------------------------------------
+|	Jira tickets 
+|--------------------------------------------------------------------------
+*/
+
+h1,h2,h3 {
+    vertical-align:middle;
+}
+h1>.badge, h2>.badge, h3>.badge {
+    vertical-align:middle;
+    margin-top: -0.5em;
+}
+.jira-blue {
+	background-color: #C4E3FD;
+}
+.jira-green {
+	background-color: #D0F4B3;
+}
+.jira-yell {
+	background-color: #FFE599;
+}
+.jira-separator {
+	background-color: #666666;
+}
+.jira-orange {
+	background-color: #FFCC99;
+}
+.hide {
+	visibility: hidden;
+}
+
+
+/*
+|--------------------------------------------------------------------------
+|	Icons styles and colors
+|--------------------------------------------------------------------------
+*/
+.icon-zabbix-passive {
+	color: #bbb;
+}
+
+.icon-zabbix-yes {
+	color: #339E24;
+}
+
+.icon-zabbix-no {
+	color: #C21919;
+}
+
+.logo {
+	height: 25px;
+}
+
+tr>.label, td>.label, th>.label {
+    vertical-align:middle;
+    padding: 0px auto;
+}
+
+.controls {
+	text-align: center;
+	vertical-align: middle;
+}
+
+.icon-green {
+	color: #339E24;
+}
+.icon-red {
+	color: #C21919;
+}
+
+/*
+|--------------------------------------------------------------------------
+|	OPS Requirements styles
+|--------------------------------------------------------------------------
+*/
+.tablesorter-bootstrap > tbody > tr:hover > td.requirement-match {
+	background-color: #B8F2BD;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.requirement-not-match {
+	background-color: #F2B8B9;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.requirement-part-match {
+	background-color: #FCF4B8;
+}
+.tablesorter-bootstrap > tbody > tr > td.requirement-match {
+	background-color: #e2f9e4;
+}
+.tablesorter-bootstrap > tbody > tr > td.requirement-not-match {
+	background-color: #f8dbdc;
+}
+.tablesorter-bootstrap > tbody > tr > td.requirement-part-match {
+	background-color: #fdf8d4;
+}
+.type-cell {
+	vertical-align: middle;
+}
+.editable-empty {
+	color: #aaa;
+	padding: 0 5px 0 5px;
+}
+#status-OK {
+	background-color: #DAFFDD;
+	color: #2AA334;
+	padding: 0 5px 0 5px;
+}
+#status-IP {
+	background-color: #FCF4B8;
+	color: #000;
+	padding: 0 5px 0 5px;
+}
+#status-NA{
+	background-color: #EDEAEA;
+	color: #999; 
+	padding: 0 5px 0 5px;
+}
+#status-NI{
+	background-color: #FFE0E1;
+	color: #000;
+	padding: 0 5px 0 5px;
+}
+#status-RR {
+	background-color: #B8D5F2;
+	color: #000;
+	padding: 0 5px 0 5px;
+}
+
+/*
+|--------------------------------------------------------------------------
+|	Component details styles
+|--------------------------------------------------------------------------
+*/
+.services {	
+	border-left: 1px dashed #e7e7e7;
+}
+.neighbours {	
+	border-left: 1px dashed #e7e7e7;
+}
+.common-layer {
+	background-color: #0073AE;
+}
+.pod-layer {
+	background-color: #F8981D;
+}
+
+.icon-yes {
+	color: #339E24;
+}
+.icon-no {
+	color: #C21919;
+}
+.icon-passive {
+	color: #bbb;
+}
+
+.select2-container {
+	padding: 0;
+}
+
+/*
+|--------------------------------------------------------------------------
+|	Zabbix Report details styles
+|--------------------------------------------------------------------------
+*/
+.zabbix-notclassified {
+	background-color: #E1E5EC;
+}
+.zabbix-informational {
+	background-color: #90EE90;
+}
+.zabbix-warning {
+	background-color: #FFE599;
+}
+.zabbix-critical {
+	background-color: #DDAAAA;
+}
+.zabbix-soutage {
+	background-color: #B20000;
+}
+.zabbix-disaster {
+	background-color: #FF0000;
+}
+.zabbix-notclassified_badge {
+	background-color: #E1E5EC;
+}
+.zabbix-informational_badge {
+	background-color: #5BAF5B;
+}
+.zabbix-warning_badge {
+	background-color: #ffbe00;
+}
+.zabbix-critical_badge {
+	background-color: #a44242;
+}
+.zabbix-soutage_badge {
+	background-color: #B20000;
+}
+.zabbix-disaster_badge {
+	background-color: #FF0000;
+}
+/*
+|--------------------------------------------------------------------------
+|	Zabbix Report details styles
+|--------------------------------------------------------------------------
+*/
+.cmr-plus {
+	color: #0066CC;
+}
+.cmr-minus {
+	color: #0066CC;
+}
+.cmr-moved {
+	color: #FF6600;
+}
+/*
+|--------------------------------------------------------------------------
+|	Incident Management Styles
+|--------------------------------------------------------------------------
+*/
+.scrollable-menu {
+    height: auto;
+    max-height: 500px;
+    overflow-x: hidden;
+}
+.tablesorter-bootstrap > tbody > tr > td.timer-open {
+	background-color: #91ACE3;
+	width: 80px;
+}
+.tablesorter-bootstrap > tbody > tr > td.timer-escalating {
+	background-color: #F38A71;
+	width: 80px;
+}
+.tablesorter-bootstrap > tbody > tr > td.timer-escalated {
+	background-color: #FFCA75;
+	width: 80px;
+}
+.tablesorter-bootstrap > tbody > tr > td.timer-assistance {
+	background-color: #70C776;
+	width: 80px;
+}
+.tablesorter-bootstrap > tbody > tr > td.timer-inprogress {
+	background-color: #D166D0;
+	width: 80px;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.timer-open {
+	background-color: #5C85D6;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.timer-escalating {
+	background-color: #E36141;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.timer-escalated {
+	background-color: #FFAD33;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.timer-assistance {
+	background-color: #40AB46;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.timer-inprogress {
+	background-color: #AD33AD;
+}
+
+.tablesorter-sticky-wrapper {
+  margin-top: 46px;
+}
+
+.form-control {
+	font-family: sans-serif;
+}
+/*
+Problem Management dashboard
+*/
+.tablesorter-bootstrap > tbody > tr > td.zabbix-notclassified {
+	background-color: #E1E5EC;
+}
+.tablesorter-bootstrap > tbody > tr > td.zabbix-informational {
+	background-color: #90EE90;
+}
+.tablesorter-bootstrap > tbody > tr > td.zabbix-warning {
+	background-color: #FFE599;
+}
+.tablesorter-bootstrap > tbody > tr > td.zabbix-critical {
+	background-color: #DDAAAA;
+}
+.tablesorter-bootstrap > tbody > tr > td.zabbix-soutage {
+	background-color: #B20000;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.zabbix-notclassified {
+	background-color: #E1E5EC;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.zabbix-informational {
+	background-color: #90EE90;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.zabbix-warning {
+	background-color: #FFE599;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.zabbix-critical {
+	background-color: #DDAAAA;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.zabbix-soutage {
+	background-color: #B20000;
+}
+.tablesorter-bootstrap > tbody > tr:hover > td.zabbix-disaster {
+	background-color: #FF0000;
+}
+/*
+Noc console
+*/
+.con-warn {
+	background-color: #FFE599;
+	text-align: center;
+}
+.con-crit {
+	background-color: #DDAAAA;
+	text-align: center;
+
+}
+.con-sout {
+	background-color: #B20000;
+	text-align: center;	
+}
+.con-disa {
+	background-color: #FF0000;
+	text-align: center;
+}
+.con-table-cen {
+	text-align: center;
+}
